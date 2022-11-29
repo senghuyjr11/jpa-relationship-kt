@@ -23,18 +23,6 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations
-    implementation("io.swagger.core.v3:swagger-annotations:2.2.7")
-
-
-    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
-    implementation("io.springfox:springfox-swagger-ui:3.0.0")
-
-
-    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
-    implementation("io.springfox:springfox-swagger2:3.0.0")
-
-
     // https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api
     implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
 
