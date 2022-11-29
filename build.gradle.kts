@@ -23,6 +23,30 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations
+    implementation("io.swagger.core.v3:swagger-annotations:2.2.7")
+
+
+    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+    implementation("io.springfox:springfox-swagger-ui:3.0.0")
+
+
+    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+    implementation("io.springfox:springfox-swagger2:3.0.0")
+
+
+    // https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api
+    implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
+
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compileOnly("javax.servlet:javax.servlet-api:4.0.1")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
+    implementation("org.springframework.boot:spring-boot-starter:3.0.0")
+
+    // https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
+    implementation("org.springframework.data:spring-data-jpa:3.0.0")
+
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
